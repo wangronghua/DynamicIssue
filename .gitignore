@@ -1,0 +1,29 @@
+﻿# Add any directories, files, or patterns you don't want to be tracked by version control
+# svn    *.o *.lo *.la *.al .libs *.so *.so.[0-9]* *.a *.pyc *.pyo *.rej *~ #*# .#* .*.swp .DS_Store bin obj Bin Obj *.user *.suo *scc *vspscc *vssscc _ReSharper.* *.user *.typemock __pycache__ SP.Service.dll .git .vs TestResults packages log *PreCompile aspnet_client backadmin
+.vs/
+bin/
+obj/
+Bin/
+Obj/
+*.user
+*.suo
+.svn/
+.git/
+packages/
+aspnet_client/
+
+
+
+#Project
+log/
+backadmin/
+WebDesign/
+branches/
+模板/
+WapPreCompile/
+SP.Service.dll
+buildout/
+*PreCompile/
+*.rar
+*.lnk
+/trunk/SP_Pv.sln
